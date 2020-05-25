@@ -28,6 +28,8 @@
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
-    "lint": "eslint --fix ./.eslintrc.js ./webpack.config.js ./src/*"
+    "build": "yarn clean && webpack --mode=production --progress",
+    "clean": "rm -rf dist && mkdir dist && yarn lint",
+    "lint": "eslint --fix ./.eslintrc.js ./webpack.config.ts ./src/*"
   }
 }
