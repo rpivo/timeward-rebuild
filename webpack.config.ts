@@ -1,4 +1,4 @@
-import * as path from 'path';
+const path = require('path');
 
 type Module = {
   context: string;
@@ -52,7 +52,7 @@ module.exports = () => ({
     filename: '[name].bundle.js',
     chunkFilename: '[name].chunk.js',
   },
-  plugins: {},
+  plugins: [],
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
     plugins: [],
