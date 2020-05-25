@@ -13,6 +13,7 @@ module.exports = {
   plugins: ['@typescript-eslint', 'react'],
   rules: {
     '@typescript-eslint/indent': ['error', 2],
+    '@typescript-eslint/no-var-requires': 0,
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
   },
   settings: {
