@@ -1,6 +1,6 @@
 {
   "name": "timeward-rebuild",
-  "version": "0.0.0",
+  "version": "0.12.0",
   "description": "day manager & time tracker",
   "main": "index.js",
   "repository": "git@github.com:rpivo/timeward-rebuild.git",
