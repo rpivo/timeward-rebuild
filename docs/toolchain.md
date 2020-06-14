@@ -15,7 +15,6 @@ Uses the **airbnb** config and **typescript-eslint** to establish ruleset. Along
 #### Runtime Environment
 Node modules like `path` are used during development, like during **Webpack** bundling. A few other Node-related packages are used:
 - **@types/node** to add Node types for TypeScript.
-- **ts-loader** to allow Webpack to read and parse TypeScript.
 - **ts-node** allows `node` to be executed in tandem with `tsc`.
 
 ### React
@@ -27,6 +26,10 @@ All front-end UI is built with React. In addition to React and React DOM, a few 
 
 ### TypeScript
 #### Typed Superset of JavaScript
+The TypeScript configuration for Timeward is fairly strict with most `noImplicit` settings set to `true`, and with `strict` set to `true`. Relative paths are set up with the `paths` key in the TypeScript config. A few other TypeScript-related packages are used:
+- **ts-loader** to allow Webpack to read and parse TypeScript.
+- **ts-node** allows `node` to be executed in tandem with `tsc`.
+
 
 ### Webpack
 #### Bundler
