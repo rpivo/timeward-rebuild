@@ -1,4 +1,3 @@
-
 {
   "compilerOptions": {
     "alwaysStrict": true,
@@ -15,9 +14,6 @@
       "@components/*": ["components/*"],
     },
     "strict": true,
-    "strictFunctionTypes": true,
-    "strictNullChecks": true,
-    "strictPropertyInitialization": true,
     "suppressImplicitAnyIndexErrors": true,
     "target": "es5",
   }
