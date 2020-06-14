@@ -1,7 +1,7 @@
 # toolchain
 
-## ESLint
-### Linter
+### ESLint
+#### Linter
 Uses the **airbnb** config and **typescript-eslint** to establish ruleset. Along with the main **ESLint** package, this project uses a number of other ESLint-related packages:
 - **@typescript-eslint/eslint-plugin** - ESLint plugin that provides rules for TypeScript.
 - **@typescript-eslint/parser** - Allows TypeScript to be parsed for ESLint.
@@ -11,19 +11,19 @@ Uses the **airbnb** config and **typescript-eslint** to establish ruleset. Along
 - **eslint-plugin-react** - ESLint plugin that provides React-specific linting rules for ESLint.
 - **eslint-plugin-react-hooks** - ESLint plugin that provides linting rules for React hooks.
 
-## Node
-### Runtime Environment
+### Node
+#### Runtime Environment
 Node modules like `path` are used during development, like during **Webpack** bundling. A few other Node-related packages are used:
 - **@types/node** to add Node types for TypeScript.
 - **ts-loader** to allow Webpack to read and parse TypeScript.
 - **ts-node** allows `node` to be executed in tandem with `tsc`.
 
-## React
-### Front-End Framework
+### React
+#### Front-End Framework
 
-## TypeScript
-### Typed Superset of JavaScript
+### TypeScript
+#### Typed Superset of JavaScript
 
-## Webpack
-### Bundler
+### Webpack
+#### Bundler
 
