@@ -7,3 +7,4 @@ Sprint 13 / June 21, 2020
 - update package version.
 - add readme.
 - add toolchain doc.
+- link toolchain doc to readme.
