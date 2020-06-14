@@ -20,6 +20,10 @@ Node modules like `path` are used during development, like during **Webpack** bu
 
 ### React
 #### Front-End Framework
+All front-end UI is built with React. In addition to React and React DOM, a few other React-related packages are used:
+- **@types/react** to add React types for TypeScript.
+- **@types/react-dom** to add React DOM types for TypeScript.
+
 
 ### TypeScript
 #### Typed Superset of JavaScript
