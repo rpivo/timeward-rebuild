@@ -33,4 +33,13 @@ The TypeScript configuration for Timeward is fairly strict with most `noImplicit
 
 ### Webpack
 #### Bundler
+The Webpack configuration utilizes a number of aspects of the Webpack API and ecosystem.
 
+- `devServer`
+The Webpack config uses `devServer` to serve local builds, although I plan to serve local builds by other means in the future.
+  - `compress: true`: allows the server to serve either gzip- or deflate-compressed files.
+  - `contentBase: ./dist`: serve build from dist folder.
+  - `hot: true`: only reload update modules.
+  - `open: true`: open the build in the browser when the server starts.
+  - `port: 1235`: serve build on port 1235.
+  - `writeToDisk: true`: create a physical copy of the build inside the build folder (dist).
